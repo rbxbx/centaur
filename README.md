@@ -2,9 +2,13 @@ centaur
 =======
 
 Usage:
-    "Such A Beastly String".centaur
-    "Such A Beastly String".centaur!
-    centaur "Such A Beastly String"
+    $ gem intsall centaur
+    $ centaur "Such A Beastly Command Line Argument"
+
+    >> require 'centaur'
+    >> "Such A Beastly String".centaur
+    >> "Such A Beastly String".centaur!
+    >> centaur "Such A Beastly String"
 
 Credits:
 
