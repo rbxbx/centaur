@@ -45,6 +45,7 @@ xxxxxxx      xxxxx
 
   def centaur!
     gsub!(/\s/, '')
+    replace('x') if empty?
     centaur_length = CENTAUR.scan(/x/).length
     if length < centaur_length
       self << self while length < centaur_length
@@ -64,7 +65,7 @@ end
 
 
 module Kernel
-  def centaur(string = 'x')
-    puts string.centaur
+  def centaur(string)
+    puts string.to_s.centaur
   end
 end
