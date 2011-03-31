@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Robert Pitts"]
   s.email       = ["rbxbxdev@gmail.com"]
   s.homepage    = "http://textaligncentaur.com"
-  s.summary     = %q{Surely you've wanted your strings to be centaurs, eh?}
-  s.description = %q{Surely you've wanted your strings to be centaurs, eh?}
+  s.summary     = %q{I'm bringin' Centaur back}
+  s.description = %q{I'm bringin' Centaur back}
 
   s.rubyforge_project = "centaur"
 

@@ -3,12 +3,12 @@ centaur
 
 Usage:
     $ gem intsall centaur
-    $ centaur "Such A Beastly Command Line Argument"
+    $ centaur "I'm bringin' Centaur back"
 
     >> require 'centaur'
-    >> "Such A Beastly String".centaur
-    >> "Such A Beastly String".centaur!
-    >> centaur "Such A Beastly String"
+    >> "I'm bringin' Centaur back".centaur
+    >> "I'm bringin' Centaur back".centaur!
+    >> centaur "I'm bringin' Centaur back."
 
 Credits:
 
